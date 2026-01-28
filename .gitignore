@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS / vectors (rebuildable)
+vector.index
+vectors.npy
+
+# Large datasets
+fashion-dataset/
+myntra/
+images/
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
